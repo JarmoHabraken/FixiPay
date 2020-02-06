@@ -39,13 +39,8 @@
 
         <v-content>
             <v-container class="justify-center d-flex pt-12">
-                <v-card width="80%" class="elevation-5">
-                    <v-carousel :hide-delimiters="true">
-                        <v-carousel-item class="secondary" cycle>
-                            <div class="display-2 font-weight-bold d-flex justify-center">Featured Artists</div>
-                        </v-carousel-item>
-                        <v-carousel-item>Ur Fat mom</v-carousel-item>
-                    </v-carousel>
+                <v-card width="80%" height="500px" class="elevation-24">
+
                 </v-card>
             </v-container>
             <v-row class="">
