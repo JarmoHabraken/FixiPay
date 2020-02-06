@@ -38,7 +38,7 @@
         </v-app-bar>
 
         <v-content>
-            <v-container class="justify-center d-flex">
+            <v-container class="justify-center d-flex pt-12">
                 <v-card width="80%" class="elevation-5">
                     <v-carousel :hide-delimiters="true">
                         <v-carousel-item class="secondary" cycle>
