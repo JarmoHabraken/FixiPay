@@ -33,7 +33,7 @@
             <v-app-bar-nav-icon @click.stop="drawer = !drawer"/>
             <v-toolbar-title>FixiPay</v-toolbar-title>
             <div class="pl-3">
-                <img src="./Images/icon3.png" height="50" width="75"/>
+                <v-img src="./Images/icon3.png" height="50" width="75"/>
             </div>
         </v-app-bar>
 
@@ -44,7 +44,7 @@
                         <v-carousel-item class="secondary" cycle>
                             <div class="display-2 font-weight-bold d-flex justify-center">Featured Artists</div>
                         </v-carousel-item>
-                        <v-carousel-item>test</v-carousel-item>
+                        <v-carousel-item>Ur Fat mom</v-carousel-item>
                     </v-carousel>
                 </v-card>
             </v-container>
