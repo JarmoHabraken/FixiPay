@@ -35,6 +35,7 @@
             <div class="pl-3">
                 <v-img src="./Images/icon3.png" height="50" width="75"/>
             </div>
+            
         </v-app-bar>
 
         <v-content>
