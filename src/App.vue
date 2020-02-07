@@ -135,11 +135,8 @@
                 color="secondary"
                 app
         >
-<<<<<<< HEAD
-            <span class="white--text">&copy; FixiPay 2020 v0.01</span>
-=======
             <span class="white--text">&copy; FixiPay 2020 v0.02</span>
->>>>>>> FIXI-3
+
         </v-footer>
     </v-app>
 </template>
