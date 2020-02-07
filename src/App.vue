@@ -28,12 +28,19 @@
         <v-app-bar
                 app
                 color="secondary"
-                dark
         >
-            <v-app-bar-nav-icon @click.stop="drawer = !drawer"/>
-            <v-toolbar-title>FixiPay</v-toolbar-title>
+            <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="accent--text"/>
+            <v-toolbar-title class="accent--text">FixiPay</v-toolbar-title>
             <div class="pl-3">
                 <v-img src="./Images/icon3.png" height="50" width="75"/>
+            </div>
+            <v-flex class="searchbar-positioning">
+                <div class="pt-7">
+                    <v-text-field rounded solo class="" label="Search" append-icon="fas fa-search"></v-text-field>
+                </div>
+            </v-flex>
+            <div class="px-5">
+                <v-btn fab><v-icon class="fas fa-user"></v-icon></v-btn>
             </div>
         </v-app-bar>
 
@@ -149,5 +156,8 @@
 </script>
 
 <style>
-
+    .searchbar-positioning {
+        display: flex;
+        justify-content: flex-end;
+    }
 </style>
