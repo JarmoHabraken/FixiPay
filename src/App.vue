@@ -135,7 +135,7 @@
                 color="secondary"
                 app
         >
-            <span class="white--text">&copy; FixiPay 2020</span>
+            <span class="white--text">&copy; FixiPay 2020 v0.01</span>
         </v-footer>
     </v-app>
 </template>
