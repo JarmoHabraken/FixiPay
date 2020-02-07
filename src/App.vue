@@ -30,13 +30,13 @@
                 color="secondary"
         >
             <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="accent--text"/>
-            <v-toolbar-title class="accent--text">FixiPay</v-toolbar-title>
+            <v-toolbar-title class="accent--text display-1" >FixiPay</v-toolbar-title>
             <div class="pl-3">
                 <v-img src="./Images/icon3.png" height="50" width="75"/>
             </div>
-            <v-flex class="searchbar-positioning">
+            <v-flex class="searchbar-positioning align-content-center">
                 <div class="pt-7">
-                    <v-text-field rounded solo class="" label="Search" append-icon="fas fa-search"></v-text-field>
+                    <v-text-field rounded solo class="" label="Search" append-icon="fas fa-search" style="width: 750px;"></v-text-field>
                 </div>
             </v-flex>
             <div class="px-5">
@@ -54,7 +54,7 @@
                 <v-col class="pa-12">
                     <v-card max-width="100%" class="elevation-5">
                         <v-container class="pa-5">
-                            <div class="headline primary--text font-weight-bold">Illustrator Specialist</div>
+                            <div class="headline secondary--text font-weight-bold">Illustrator Specialist</div>
                             <v-row class="pa-3 justify-space-around">
                                 <v-card class="elevation-0" max-width="60%">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -84,7 +84,7 @@
                 <v-col class="pa-12">
                     <v-card max-width="100%" class="elevation-5">
                         <v-container class="pa-5">
-                            <div class="headline primary--text font-weight-bold">Illustrator Specialist</div>
+                            <div class="headline secondary--text font-weight-bold">Illustrator Specialist</div>
                             <v-row class="pa-3 justify-space-around">
                                 <v-card class="elevation-0" max-width="60%">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -135,7 +135,11 @@
                 color="secondary"
                 app
         >
+<<<<<<< HEAD
             <span class="white--text">&copy; FixiPay 2020 v0.01</span>
+=======
+            <span class="white--text">&copy; FixiPay 2020 v0.02</span>
+>>>>>>> FIXI-3
         </v-footer>
     </v-app>
 </template>
@@ -158,6 +162,6 @@
 <style>
     .searchbar-positioning {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
     }
 </style>
