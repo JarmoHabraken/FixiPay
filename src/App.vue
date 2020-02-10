@@ -128,13 +128,7 @@
                 </v-col>
             </v-row>
         </v-content>
-        <v-footer
-                color="secondary"
-                app
-        >
-            <span class="white--text">&copy; FixiPay 2020 v0.02</span>
-
-        </v-footer>
+        <page-footer/>
     </v-app>
 </template>
 
@@ -142,11 +136,13 @@
 
     import HeaderCard from "./components/HeaderCard";
     import ProgramCards from "./components/ProgramCards";
+    import PageFooter from "./components/PageFooter";
 
     export default {
         name: 'App',
 
         components: {
+            PageFooter,
             HeaderCard,
             ProgramCards,
         },
