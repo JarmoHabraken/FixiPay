@@ -36,21 +36,32 @@
             </div>
             <v-flex class="searchbar-positioning align-content-center">
                 <div class="pt-7">
-                    <v-text-field rounded solo class="" label="Search" append-icon="fas fa-search"
-                                  style="width: 750px;"></v-text-field>
+                    <v-text-field rounded solo class="" label="Search" append-icon="fas fa-search" style="width: 750px;"></v-text-field>
                 </div>
             </v-flex>
             <div class="px-5">
-                <v-btn fab>
-                    <v-icon class="fas fa-user"></v-icon>
-                </v-btn>
+                <v-btn fab><v-icon class="fas fa-user"></v-icon></v-btn>
             </div>
         </v-app-bar>
 
         <v-content>
             <v-container class="justify-center d-flex pt-12">
-                <v-card width="80%" height="500px" class="elevation-24">
+                <v-card width="95%" height="500px" class="elevation-24">
+                    <v-row class="justify-space-around">
+                        <v-card width="35%" class="elevation-0">
+                            <div class="py-12">
+                            <v-card class="display-2 pt-12 elevation-0" max-width="90%">
+                                Fixipay
+                            </v-card>
+                            </div>
+                            <v-card max-width="90%" class="elevation-0">
 
+                            </v-card>
+                        </v-card>
+                        <v-card class="elevation-0 pt-10" max-width="40%">
+                            <img src="./Images/adobe2_programmas_transTekengebied_1.png" height="450"/>
+                        </v-card>
+                    </v-row>
                 </v-card>
             </v-container>
             <v-row class="">
@@ -139,6 +150,7 @@
                 app
         >
             <span class="white--text">&copy; FixiPay 2020 v0.02</span>
+
         </v-footer>
     </v-app>
 </template>
