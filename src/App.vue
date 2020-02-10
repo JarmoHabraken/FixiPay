@@ -45,6 +45,7 @@
         </v-app-bar>
 
         <v-content>
+            <header-card/>
             <program-cards/>
             <v-row class="">
                 <v-col class="pa-12">
@@ -139,12 +140,14 @@
 
 <script>
 
+    import HeaderCard from "./components/HeaderCard";
     import ProgramCards from "./components/ProgramCards";
 
     export default {
         name: 'App',
 
         components: {
+            HeaderCard,
             ProgramCards,
         },
         props: {
