@@ -127,8 +127,9 @@
                     </v-tooltip>
                 </v-col>
             </v-row>
+            <page-footer/>
         </v-content>
-        <page-footer/>
+
     </v-app>
 </template>
 
