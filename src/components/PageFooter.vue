@@ -2,8 +2,9 @@
     <v-footer
             color="secondary"
             app
+            class="elevation-5"
     >
-        <span class="white--text">&copy; FixiPay 2020 v0.02</span>
+        <span class="text--secondary">&copy; FixiPay 2020 v0.03</span>
 
     </v-footer>
 </template>
