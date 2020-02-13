@@ -24,7 +24,6 @@
             </v-row>
             <page-footer/>
         </v-content>
-
     </v-app>
 </template>
 
@@ -48,8 +47,5 @@
 </script>
 
 <style>
-    .searchbar-positioning {
-        display: flex;
-        justify-content: center;
-    }
+
 </style>
