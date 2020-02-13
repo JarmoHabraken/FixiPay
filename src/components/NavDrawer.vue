@@ -3,7 +3,8 @@
         <v-navigation-drawer
                 v-model="drawer"
                 app
-                color="accent"
+                color="primary"
+                class="elevation-3"
         >
             <v-list dense>
                 <v-list-item link>
@@ -30,19 +31,19 @@
                 color="secondary"
                 height="90px"
         >
-            <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="accent--text"/>
-            <v-toolbar-title class="accent--text display-1">FixiPay</v-toolbar-title>
+            <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="text--text ml-1"/>
+            <v-toolbar-title class="text--text display-1">FixiPay</v-toolbar-title>
             <div class="pl-5">
                 <v-img src="../Images/icon4 - kopie.png" height="50" width="90"/>
             </div>
             <v-flex class="searchbar-positioning">
                 <div class="pt-7">
-                    <v-text-field rounded solo class="" label="Search" append-icon="fas fa-search"
+                    <v-text-field rounded solo class="" background-color="accent" label="Search" append-icon="fas fa-search"
                                   style="width: 750px;"></v-text-field>
                 </div>
             </v-flex>
             <div class="px-5">
-                <v-btn fab class="accent">
+                <v-btn fab class="accent text--text">
                     <v-icon class="fas fa-user"></v-icon>
                 </v-btn>
             </div>
