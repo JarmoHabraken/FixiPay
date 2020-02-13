@@ -25,8 +25,8 @@
                         </v-row>
                         <v-divider class="py-3"></v-divider>
                         <v-row class="d-flex justify-end pr-9">
-                            <v-btn class="ma-3 secondary--text" outlined>Contact now</v-btn>
-                            <v-btn class="ma-3 secondary--text" outlined>Contact now</v-btn>
+                            <v-btn class="ma-3 primary--text" outlined>Go to</v-btn>
+                            <v-btn class="ma-3 primary--text" outlined>Contact now</v-btn>
                         </v-row>
                     </v-container>
                 </v-card>
@@ -56,8 +56,8 @@
                         </v-row>
                         <v-divider class="py-3"></v-divider>
                         <v-row class="d-flex justify-end pr-9">
-                            <v-btn class="ma-3 secondary--text" outlined>Contact now</v-btn>
-                            <v-btn class="ma-3 secondary--text" outlined>Contact now</v-btn>
+                            <v-btn class="ma-3 primary--text" outlined>Go to</v-btn>
+                            <v-btn class="ma-3 primary--text" outlined>Contact now</v-btn>
                         </v-row>
                     </v-container>
                 </v-card>
