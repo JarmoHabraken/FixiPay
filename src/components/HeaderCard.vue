@@ -18,7 +18,7 @@
                             Here at FixiPay we know starting isn't easy so sometimes you want some help
                         </v-card>
                         <div class="pl-12 pt-5">
-                            <v-btn class="elevation-0 primary pt-5 px-10 pb-10 title" tile>
+                            <v-btn  class="elevation-0 primary pt-5 px-10 pb-10 title" tile>
                                 Learn More
                             </v-btn>
                         </div>

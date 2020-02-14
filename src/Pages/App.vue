@@ -29,10 +29,10 @@
 
 <script>
 
-    import HeaderCard from "./components/HeaderCard";
-    import ProgramCards from "./components/ProgramCards";
-    import PageFooter from "./components/PageFooter";
-    import NavDrawer from "./components/NavDrawer";
+    import HeaderCard from "../components/HeaderCard";
+    import ProgramCards from "../components/ProgramCards";
+    import PageFooter from "../components/PageFooter";
+    import NavDrawer from "../components/NavDrawer";
 
     export default {
         name: 'App',
